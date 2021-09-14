@@ -99,15 +99,11 @@ Use the higher order function getAverageGoals to do the following:
  Example of invocation: getAverageGoals(getFinals(fifaData));
 */
 
-function getAverageGoals(getFinalsCB(array){
-   const average = getFinalsCB.reduce(function(accumulator, item){
-       let sum = accumulator + item["Home Team Goals"] + item["Away Team Goals"];
-       return 
-   },0);
-
+function getAverageGoals(){
+   
 }
 
-console.log(getAverageGoals(getFinals(fifaData)));
+
 
 
 /// 🥅 STRETCH 🥅 ///
